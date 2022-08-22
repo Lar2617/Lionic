@@ -1,0 +1,164 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before
+::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  min-width: 1200px;
+  font-family: 'Font', 'sans-serif';
+}
+
+.header {
+}
+.container {
+}
+.header-logo {
+}
+.header-nav {
+}
+.header-list {
+}
+.header-list-item {
+}
+.header-link {
+}
+.btn {
+}
+.header-btn {
+}
+.main {
+}
+.hero {
+}
+.hero-contant {
+}
+.hero-title {
+}
+.hero-desc {
+}
+.hero-btn {
+}
+.hero-secure {
+}
+.services {
+}
+.section-title {
+}
+.services-title {
+}
+.section-descr {
+}
+.services-descr {
+}
+.services-items {
+}
+.services-item {
+}
+.servises-item-icon {
+}
+.services-item-title {
+}
+.services-item-descr {
+}
+.services-item-icon {
+}
+.articles {
+}
+.articles-title {
+}
+.articles-list {
+}
+.articles-item {
+}
+.blog-preview {
+}
+.blog-preview-image {
+}
+.blog-preview-text {
+}
+.blog-preview-time {
+}
+.blog-preview-title {
+}
+.blog-preview-descr {
+}
+.clients {
+}
+.clients-title {
+}
+.clients-list {
+}
+.clients-item {
+}
+.clients-item-descr {
+}
+.clients-user {
+}
+.clients-avatar {
+}
+.clients-text {
+}
+.clients-name {
+}
+.clients-post {
+}
+.contacts {
+}
+.contacts-title {
+}
+.contacts-adress {
+}
+.contacts-list {
+}
+.contacts-item {
+}
+.contacts-item-caption {
+}
+.contacts-item-text {
+}
+.contacts-item-link {
+}
+.footer {
+}
+.footer-left {
+}
+.footer-logo {
+}
+.footer-copy {
+}
+.footer-right {
+}
+.footer-nav {
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-link {
+}
+.social {
+}
+.social-item {
+}
+.social-link {
+}
+.social-link-tw {
+}
+.social-link-linkedin {
+}
+.social-link-mail {
+}
