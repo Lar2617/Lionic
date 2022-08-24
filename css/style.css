@@ -74,19 +74,10 @@ body {
   margin-right: 52px;
 }
 
-.header-list {
-}
 .header-list-item:not(:last-child) {
   margin-right: 52px;
 }
-.header-link {
-}
-.btn {
-}
-.header-btn {
-}
-.main {
-}
+
 .hero {
   padding: 100px 0;
 }
@@ -111,14 +102,7 @@ body {
   margin-bottom: 14px;
 }
 
-.hero-secure {
-}
-
-
 /*services*/
-
-.services {
-}
 
 .services-title {
   text-align: center;
@@ -127,8 +111,7 @@ body {
 .services-descr {
   text-align: center;
 }
-.services-items {
-}
+
 .services-item {
   flex-direction: column;
   align-items: center;
@@ -154,26 +137,46 @@ body {
   text-align: center;
 }
 
-.articles {
-}
-.articles-title {
-}
+/*articles*/
+
 .articles-list {
+  flex-wrap: wrap;
 }
+
 .articles-item {
+  width: 570px;
+  margin-bottom: 30px;
+  outline: 1px solid red;
 }
+
+.articles-item:not(:nth-child(2n)) {
+  margin-right: 30px;
+}
+
 .blog-preview {
+  object-fit: cover;
 }
-.blog-preview-image {
-}
+
 .blog-preview-text {
+  padding: 30px;
 }
+
 .blog-preview-time {
+  display: block;
+  margin-bottom: 5px;
 }
+
 .blog-preview-title {
+  margin: 0;
+  margin-bottom: 15px;
 }
+
 .blog-preview-descr {
+  margin: 0;
 }
+
+/*clients*/
+
 .clients {
 }
 .clients-title {
@@ -181,16 +184,37 @@ body {
 .clients-list {
 }
 .clients-item {
+  flex-direction: column;
+  width: 370px;
+  padding: 50px 36px;
+  padding-bottom: 30px;
+  outline: 1px solid red;
 }
+
+.clients-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
 .clients-item-descr {
+  margin: 0;
+  margin-bottom: 30px;
 }
+
 .clients-user {
+  margin-top: auto;
+  align-items: center;
 }
+
 .clients-avatar {
+  flex-shrink: 0;
+  width: 67px;
+  margin-right: 17px;
 }
+
 .clients-text {
 }
 .clients-name {
+  margin-bottom: 5px;
 }
 .clients-post {
 }
